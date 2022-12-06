@@ -12,3 +12,8 @@ likesWater.unshift(false);
 console.log(cats);
 console.log(ages);
 console.log(likesWater);
+
+// So index positions are interesting because they start at one so it we take my age array from above as an 
+// example 10 is in the 0 position, 9 is in the 1 position, 2 is in the 3 position and 
+// 2 is in the 4 position. But after this code runs because of the shift method 9 is in the 0 position, 2 is 
+// in the 1 position and 2 is in the 2 position.
